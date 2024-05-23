@@ -2,8 +2,8 @@
 page_id: profiles
 layout: profiles
 permalink: /people/
-title: membros
-description: membros do grupo de pesquisa ou laboratório
+title: אנשים
+description: חברי המעבדה או הקבוצה
 nav: true
 nav_order: 7
 

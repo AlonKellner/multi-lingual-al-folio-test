@@ -2,8 +2,8 @@
 page_id: teaching
 layout: page
 permalink: /teaching/
-title: ensino
-description: Materiais de cursos que você ministrou. Substitua esse texto com sua descrição.
+title: הוראה
+description: תכני הוראה שיצרת\העברת. החלף את השורה הזו בתיאור מתאים.
 nav: true
 nav_order: 6
 ---

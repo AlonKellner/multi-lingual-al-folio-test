@@ -1,71 +1,71 @@
-archive_category: um arquivo de postagens desta categoria
-archive_tag: um arquivo de postagens com este marcador
-archive_year: um arquivo de postagens deste ano
+archive_category: ארכיון של פוסטים בקטגוריה
+archive_tag: ארכיון של פוסטים עם התגית
+archive_year: ארכיון של פוסטים מהשנה
 blog:
-  navigation_title: blog
+  navigation_title: בלוג
 categories:
-  fun: diversão
-  work: trabalho
+  fun: כיף
+  work: עבודה
 citation:
-  bibtex: "ou como uma citação em BibTeX:"
-  introduction: "Se você achou isso útil, por favor cite como:"
-contact_note: Você pode até adicionar uma pequena observação sobre qual dessas é a melhor maneira de entrar em contato com você.
+  bibtex: "או כרשומת BibTeX:"
+  introduction: "אם זה עזר לכם, בבקשה צטטו כך:"
+contact_note: אפילו ניתן להוסיף הערה קטנה לגבי אילו מהן היא המועדפת כדי להשיג אותך.
 cv:
-  address: Endereço
-  area: Área
-  awarder: Premiado por
-  awards: Prêmios
-  basics: Informações gerais
-  certificates: Certificados
-  city: Cidade
-  countryCode: Código do país
-  courses: Cursos
-  date: Data
-  education: Educação
-  email: Email
-  endDate: Data de término
-  fluency: Fluência
-  highlights: Destaques
-  image: Imagem
-  institution: Instituição
-  interests: Interesses
-  issuer: Emissor
-  keywords: Palavras chave
-  label: Título
-  language: Idioma
-  languages: Idiomas
-  level: Nível
-  location: Localização
-  name: Nome
-  network: Rede
-  organization: Organização
-  phone: Telefone
-  position: Posição
-  postalCode: Código postal
-  profiles: Perfis
+  address: כתובת
+  area: אזור
+  awarder: מעניק הפרס
+  awards: פרסים
+  basics: מידע כללי
+  certificates: תעודות
+  city: עיר
+  countryCode: קוד אזורי
+  courses: קורסים
+  date: תאריך
+  education: חינוך
+  email: מייל
+  endDate: תאריך סיום
+  fluency: רהיטות
+  highlights: עיקרי הדברים
+  image: תמונה
+  institution: מוסד
+  interests: נושאי עניין
+  issuer: המדווח
+  keywords: מילות מפתח
+  label: תווית
+  language: שפה
+  languages: שפות
+  level: רמה
+  location: מיקום
+  name: שם
+  network: רשת
+  organization: ארגון
+  phone: טלפון
+  position: תפקיד
+  postalCode: מיקוד
+  profiles: אנשים
   projects: פרויקטים
-  publications: Publicações
-  publisher: Editora
-  reference: Referência
-  references: Referências
-  region: Região
-  releaseDate: Data de lançamento
-  score: Pontuação
-  skills: Habilidades
-  startDate: Data de início
-  studyType: Tipo de estudo
-  summary: Resumo
-  table_of_contents: Tópicos
-  title: Título
-  url: Url
-  username: Usuário
-  volunteer: Voluntário
-  work: Trabalho
+  publications: מאמרים
+  publisher: מוציא לאור
+  reference: אזכור
+  references: אזכורים
+  region: אזור
+  releaseDate: תאריך פרסום
+  score: ציון
+  skills: כישורים
+  startDate: תאריך התחלה
+  studyType: סוג מחקר
+  summary: סיכום
+  table_of_contents: תוכן עניינים
+  title: כותרת
+  url: קישור
+  username: שם משתמש
+  volunteer: מתנדב
+  work: עבודה
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Desenvolvido em <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> com o tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
-  Hospedado por <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Fotos do <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-latest_posts: últimas postagens
+  נוצר באמצעות <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> עם ה-Theme <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
+  מונגש באמצעות <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  תמונות מ-<a href="https://unsplash.com" target="_blank">Unsplash</a>.
+latest_posts: פרסומים אחרונים
 months:
   long:
     january: ינואר
@@ -93,19 +93,19 @@ months:
     october: אוק'
     november: נוב'
     december: דצמ'
-news: novidades
-no_news: Nenhuma novidade no momento...
+news: חדשות
+no_news: אין חדש...
 pagination:
-  newer: Recentes
-  older: Antigas
-  page: página
+  newer: חדש יותר
+  older: ישן יותר
+  page: עמוד
 post:
-  created_in: Criado em
-  created_by: por
-  last_updated: última atualização em
-references: Referências
+  created_in: נוצר ב
+  created_by: נוצר על ידי
+  last_updated: עודכן לאחרונה על ידי
+references: אזכורים
 related_posts:
-  description: "Aqui estão alguns artigos relacionados que você pode gostar de ler:"
-  title: Gostou de Ler este Artigo?
-selected_publications: publicações selecionadas
-site_description: Um tema simples para acadêmicos. Baseado no design do [*folio](https://github.com/bogoli/-folio).
+  description: "הנה כמה כתבות שאולי תרצה להמשיך אליהם:"
+  title: נהנה מהכתבה?
+selected_publications: מאמרים נבחרים
+site_description: Theme מרווח ופשוט עבור אקדמאים. מבוסס על [*folio](https://github.com/bogoli/-folio).

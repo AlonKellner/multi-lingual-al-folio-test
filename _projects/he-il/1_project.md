@@ -9,7 +9,7 @@ importance: 1
 category: work
 related_publications: true
 ---
-<div dir="rtl">
+
 לכל פרויקט יש דף תצוגה יפהפה.
 ניתן בפשטות להוסיף תמונות בגריד גמיש של 3 עמודות.
 מקמו את תמונותכם ברוחב 1/3, 2/3 או רוחב מלא.
@@ -59,7 +59,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    אפשר גם סגנון אומנותי של תמונות מחולקות 2/3 + 1/3 כמו אלו.
 </div>
 
 הקוד הזה פשוט.
@@ -81,4 +81,3 @@ related_publications: true
 ```
 
 {% endraw %}
-</div>

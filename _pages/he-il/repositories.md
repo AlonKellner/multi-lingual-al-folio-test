@@ -2,13 +2,14 @@
 page_id: repositories
 layout: page
 permalink: /repositories/
-title: repositórios
-description: Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.
+title: Repo-ים
+description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: ערוך את `_data/repositories.yml` והחלף את רשימות ה-`github_users` וה-`github_repos` כדי להציג את פרופיל ה-github וה-Repo-ים שלך.
 nav: true
 nav_order: 4
 ---
 
-## Usuários do GitHub
+## משתמשי GitHub
 
 {% if site.data.repositories.github_users %}
 
