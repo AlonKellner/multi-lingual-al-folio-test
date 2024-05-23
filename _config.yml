@@ -248,11 +248,6 @@ defaults:
       path: "assets"
     values:
       sitemap: false
-  - scope:
-      path: ""
-    values:
-      stylized-title: blank
-      stylized-description: blank
 
 sass:
   sourcemap: never

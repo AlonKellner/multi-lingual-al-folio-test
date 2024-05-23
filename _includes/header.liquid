@@ -1,4 +1,8 @@
+{% if page.custom_style %}
+<header {{ page.custom_style }}>
+{% else %}
 <header>
+{% endif %}
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
@@ -7,7 +11,7 @@
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
-                {% if site.data[site.active_lang].strings contains 'first_name' %}
+                {% if site.data[site.active_lang].strings.first_name %}
                   {{- site.data[site.active_lang].strings.first_name -}}
                 {% else %}
                   {{- site.first_name -}}
@@ -15,14 +19,14 @@
               </span>
             {% endif %}
             {% if site.middle_name %}
-              {% if site.data[site.active_lang].strings contains 'middle_name' %}
+              {% if site.data[site.active_lang].strings.middle_name %}
                 {{- site.data[site.active_lang].strings.middle_name -}}
               {% else %}
                 {{- site.middle_name -}}
               {% endif %}
             {% endif %}
             {% if site.last_name %}
-              {% if site.data[site.active_lang].strings contains 'last_name' %}
+              {% if site.data[site.active_lang].strings.last_name %}
                 {{- site.data[site.active_lang].strings.last_name -}}
               {% else %}
                 {{- site.last_name -}}

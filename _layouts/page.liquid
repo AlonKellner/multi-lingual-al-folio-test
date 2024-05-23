@@ -7,20 +7,8 @@ layout: default
 <div class="post">
 {% endif %}
   <header class="post-header">
-    {% if page.stylized-title == 'blank %}
-      <h1 class="post-title">
-        {{- page.title -}}
-      </h1>
-    {% else %}
-      {{- page.stylized-title -}}
-    {% endif %}
-    {% if page.stylized-description == 'blank %}
-      <p class="post-description">
-        {{- page.description -}}
-      </p>
-    {% else %}
-      {{- page.stylized-description -}}
-    {% endif %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
   </header>
 
   <article>
