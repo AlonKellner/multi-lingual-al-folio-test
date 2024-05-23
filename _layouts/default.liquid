@@ -21,7 +21,8 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  {% capture custom_style %}{% if page.custom_style %}{{ page.custom_style }}{% elsif site.data[site.active_lang].config.custom_style %}{{ site.data[site.active_lang].config.custom_style }}{% endif %}{% endcapture %}
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %} {{ custom_style }}">
     <!-- Header -->
     {% include header.liquid %}
 

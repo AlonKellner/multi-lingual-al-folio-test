@@ -64,7 +64,7 @@ cv:
   volunteer: מתנדב
   work: עבודה
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  נוצר באמצעות <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> עם ה-Theme <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
+  נוצר באמצעות <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> עם ה-<a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
   מונגש באמצעות <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   תמונות מ-<a href="https://unsplash.com" target="_blank">Unsplash</a>.
 latest_posts: פרסומים אחרונים
