@@ -1,9 +1,9 @@
 ---
 page_id: projects
 layout: page
-title: projetos
+title: פרויקטים
 permalink: /projects/
-description: Uma crescente coleção de seus projetos interessantes.
+description: אוסף גדל של פרויקטים מגניבים
 nav: true
 nav_order: 3
 display_categories: [work, fun]

@@ -61,7 +61,7 @@
       institution: University of Zurich, Zurique, Suíça
       year: 1909 - 1911
 
-- title: Projetos de Código Aberto
+- title: פרויקטי קוד פתוח
   type: time_table
   contents:
     - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>

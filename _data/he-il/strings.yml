@@ -43,7 +43,7 @@ cv:
   position: Posição
   postalCode: Código postal
   profiles: Perfis
-  projects: Projetos
+  projects: פרויקטים
   publications: Publicações
   publisher: Editora
   reference: Referência
@@ -68,31 +68,31 @@ footer_text: > # the ">" symbol means to ignore newlines until "titles:"
 latest_posts: últimas postagens
 months:
   long:
-    january: Janeiro
-    february: Fevereiro
-    march: Março
-    april: Abril
-    may: Maio
-    june: Junho
-    july: Julho
-    august: Agosto
-    september: Setembro
-    october: Outubro
-    november: Novembro
-    december: Dezembro
+    january: ינואר
+    february: פברואר
+    march: מרץ
+    april: אפריל
+    may: מאי
+    june: יוני
+    july: יולי
+    august: אוגוסט
+    september: ספטמבר
+    october: אוקטובר
+    november: נובמבר
+    december: דצמבר
   short:
-    january: Jan
-    february: Fev
-    march: Mar
-    april: Abr
-    may: Mai
-    june: Jun
-    july: Jul
-    august: Ago
-    september: Set
-    october: Out
-    november: Nov
-    december: Dez
+    january: ינו'
+    february: פבר'
+    march: מרץ
+    april: אפר'
+    may: מאי
+    june: יונ'
+    july: יול'
+    august: אוג'
+    september: ספט'
+    october: אוק'
+    november: נוב'
+    december: דצמ'
 news: novidades
 no_news: Nenhuma novidade no momento...
 pagination:
