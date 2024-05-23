@@ -1,17 +1,17 @@
 ---
 id: dropdown
 layout: page
-title: submenus
+title: תת-תפריטים
 nav: true
-nav_order: 8
+nav_order: 7
 dropdown: true
 children:
-  - title: publicações
+  - title: מאמרים
     permalink: /publications/
   - title: divider
-  - title: projetos
+  - title: פרויקטים
     permalink: /projects/
   - title: divider
-  - title: blog
+  - title: בלוג
     permalink: /blog/
 ---

@@ -1,5 +1,6 @@
 ---
 lang: he-il
+dir: rtl
 page_id: project_1
 layout: page
 title: פרויקט 1
