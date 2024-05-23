@@ -2,12 +2,14 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
+  {% capture page_header_liquid_style %}{% if page.page_header_liquid_style %}{{ page.page_header_liquid_style }}{% elsif site.data[site.active_lang].config.page_header_liquid_style %}{{ site.data[site.active_lang].config.page_header_liquid_style }}{% endif %}{% endcapture %}
+  <header class="post-header" {{ page_header_liquid_style }}>
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-description">{{ page.description }}</p>
   </header>
 
-  <article>
+  {% capture page_article_liquid_style %}{% if page.page_article_liquid_style %}{{ page.page_article_liquid_style }}{% elsif site.data[site.active_lang].config.page_article_liquid_style %}{{ site.data[site.active_lang].config.page_article_liquid_style }}{% endif %}{% endcapture %}
+  <article {{ page_article_liquid_style }}>
     {{ content }}
   </article>
 
