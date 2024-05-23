@@ -1,6 +1,5 @@
 ---
 lang: he-il
-dir: rtl
 page_id: about
 layout: about
 title: על עצמי
