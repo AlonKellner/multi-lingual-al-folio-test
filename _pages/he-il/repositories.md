@@ -6,9 +6,13 @@ title: Repo-ים
 description: ערוך את `_data/repositories.yml` והחלף את רשימות ה-`github_users` וה-`github_repos` כדי להציג את פרופיל ה-github וה-Repo-ים שלך.
 nav: true
 nav_order: 4
+default_liquid_style: # no style
+header_liquid_style: 'dir=rtl style="text-align: right; font-family: Segoe UI"'
+page_header_liquid_style: 'dir=rtl style="text-align: right; font-family: Segoe UI"'
+footer_liquid_style: 'dir=rtl style="text-align: right; font-family: Segoe UI"'
 ---
 
-## משתמשי GitHub
+## GitHub users
 
 {% if site.data.repositories.github_users %}
 
@@ -36,7 +40,7 @@ nav_order: 4
 {% endif %}
 {% endif %}
 
-## Repositórios do GitHub
+## GitHub Repositories
 
 {% if site.data.repositories.github_repos %}
 
