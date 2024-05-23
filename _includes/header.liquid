@@ -38,7 +38,7 @@
       {% endif %}
       <!-- Navbar Toggle -->
       <button
-        class="navbar-toggler collapsed ml-auto"
+        class="navbar-toggler collapsed {{site.data[site.active_lang].config.navbar_style}}"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNav"
@@ -53,7 +53,7 @@
       </button>
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <ul class="navbar-nav ml-auto flex-nowrap">
+        <ul class="navbar-nav flex-nowrap" {{site.data[site.active_lang].config.navbar_style}}>
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
