@@ -7,10 +7,11 @@ description: publications by categories in reversed chronological order. generat
 description: מאמרים לפי קטגוריה ממוין מהחדש לישן. נוצר באמצעות jekyll-scholar.
 nav: true
 nav_order: 2
+custom_style: 'font-family: Segoe UI"'
 ---
 
 <!-- _pages/publications.md -->
-<div class="publications" dir=ltr style="text-align: left; font-family: Roboto ,sans-serif">
+<div class="publications">
 
 {% bibliography %}
 

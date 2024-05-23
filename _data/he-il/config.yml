@@ -1,2 +1,2 @@
-custom_style: 'dir=rtl markdown=1 style="text-align: right; font-family: Segoe UI"'
-nvbar_style: 'style="margin-right: auto"'
+custom_style: 'dir=rtl style="text-align: right; font-family: Segoe UI"'
+navbar_style: 'style="margin-right: auto"'
