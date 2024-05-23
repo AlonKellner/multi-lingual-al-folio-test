@@ -1,6 +1,5 @@
 ---
 lang: he-il
-dir: rtl
 page_id: project_1
 layout: page
 title: פרויקט 1
@@ -10,7 +9,7 @@ importance: 1
 category: work
 related_publications: true
 ---
-
+<div dir="rtl">
 לכל פרויקט יש דף תצוגה יפהפה.
 ניתן בפשטות להוסיף תמונות בגריד גמיש של 3 עמודות.
 מקמו את תמונותכם ברוחב 1/3, 2/3 או רוחב מלא.
@@ -82,3 +81,4 @@ related_publications: true
 ```
 
 {% endraw %}
+</div>
