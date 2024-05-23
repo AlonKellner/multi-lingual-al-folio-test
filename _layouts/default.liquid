@@ -21,13 +21,14 @@
   </head>
 
   <!-- Body -->
-  {% capture custom_style %}{% if page.custom_style %}{{ page.custom_style }}{% elsif site.data[site.active_lang].config.custom_style %}{{ site.data[site.active_lang].config.custom_style }}{% endif %}{% endcapture %}
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}" {{ custom_style }}>
+  {% capture default_liquid_style %}{% if page.default_liquid_style %}{{ page.default_liquid_style }}{% elsif site.data[site.active_lang].config.default_liquid_style %}{{ site.data[site.active_lang].config.default_liquid_style }}{% endif %}{% endcapture %}
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}" {{ default_liquid_style }}>
     <!-- Header -->
     {% include header.liquid %}
 
     <!-- Content -->
-    <div class="container mt-5" role="main">
+    {% capture content_liquid_style %}{% if page.content_liquid_style %}{{ page.content_liquid_style }}{% elsif site.data[site.active_lang].config.content_liquid_style %}{{ site.data[site.active_lang].config.content_liquid_style }}{% endif %}{% endcapture %}
+    <div class="container mt-5" role="main" {{ content_liquid_style }}>
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">

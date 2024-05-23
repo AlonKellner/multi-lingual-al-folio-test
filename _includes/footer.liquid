@@ -1,5 +1,6 @@
+{% capture footer_liquid_style %}{% if page.footer_liquid_style %}{{ page.footer_liquid_style }}{% elsif site.data[site.active_lang].config.footer_liquid_style %}{{ site.data[site.active_lang].config.footer_liquid_style }}{% endif %}{% endcapture %}
 {% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo">
+  <footer class="fixed-bottom" role="contentinfo" {{ footer_liquid_style }}>
     <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
@@ -14,7 +15,7 @@
     </div>
   </footer>
 {% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo">
+  <footer class="sticky-bottom mt-5" role="contentinfo" {{ footer_liquid_style }}>
     <div class="container">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}

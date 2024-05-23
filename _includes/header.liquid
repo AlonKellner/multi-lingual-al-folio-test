@@ -1,4 +1,5 @@
-<header>
+{% capture header_liquid_style %}{% if page.header_liquid_style %}{{ page.header_liquid_style }}{% elsif site.data[site.active_lang].config.header_liquid_style %}{{ site.data[site.active_lang].config.header_liquid_style }}{% endif %}{% endcapture %}
+<header {{ header_liquid_style }}>
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
