@@ -1,5 +1,7 @@
 {% if page.custom_style %}
 <header {{ page.custom_style }}>
+{% elsif site.data[site.active_lang].config.custom_style %}
+<header {{ site.data[site.active_lang].config.custom_style }}>
 {% else %}
 <header>
 {% endif %}

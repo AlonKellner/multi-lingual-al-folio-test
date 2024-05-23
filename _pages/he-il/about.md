@@ -4,7 +4,6 @@ dir: rtl
 page_id: about
 layout: about
 title: על עצמי
-custom_style: 'dir=rtl markdown=1 style="text-align: right; font-family: Segoe UI"'
 permalink: /
 subtitle: <a href='#'>השתייכות</a>. כתובת, דרכי תקשורת, מוטו וכדו'.
 

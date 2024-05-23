@@ -3,7 +3,6 @@ lang: he-il
 page_id: project_1
 layout: page
 title: פרויקט 1
-custom_style: 'dir=rtl markdown=1 style="text-align: right; font-family: Segoe UI"'
 description: עם תמונת רקע
 img: /assets/img/12.jpg
 importance: 1

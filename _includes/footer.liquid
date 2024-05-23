@@ -1,6 +1,8 @@
 {% if site.footer_fixed %}
   {% if page.custom_style %}
   <footer class="fixed-bottom" role="contentinfo" {{ page.custom_style }}>
+  {% elsif site.data[site.active_lang].config.custom_style %}
+  <footer class="fixed-bottom" role="contentinfo" {{ site.data[site.active_lang].config.custom_style }}>
   {% else %}
   <footer class="fixed-bottom" role="contentinfo">
   {% endif %}
@@ -20,6 +22,8 @@
 {% else %}
   {% if page.custom_style %}
   <footer class="sticky-bottom mt-5" role="contentinfo" {{ page.custom_style }}>
+  {% elsif site.data[site.active_lang].config.custom_style %}
+  <footer class="sticky-bottom mt-5" role="contentinfo" {{ site.data[site.active_lang].config.custom_style }}>
   {% else %}
   <footer class="sticky-bottom mt-5" role="contentinfo">
   {% endif %}
