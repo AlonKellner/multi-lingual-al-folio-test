@@ -1,19 +1,20 @@
 ---
+lang: he-il
 page_id: project_1
 layout: page
-title: projeto 1
-description: com imagem de fundo
+title: פרויקט 1
+description: עם תמונת רקע
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Cada projeto tem uma bela página de apresentação de recursos.
-É fácil incluir imagens em um formato flexível de grade de 3 colunas.
-Faça suas fotos 1/3, 2/3 ou largura total.
+לכל פרויקט יש דף תצוגה יפהפה.
+ניתן בפשטות להוסיף תמונות בגריד גמיש של 3 עמודות.
+מקמו את תמונותכם ברוחב 1/3, 2/3 או רוחב מלא.
 
-Para dar um plano de fundo ao seu projeto na página do portfólio, basta adicionar a tag img ao front Matter assim:
+כדי להוסיף תמונת רקע סדף הפורטפוליו, פשוט הוסיפו את התגית `img` ל-`front matter` בצורה הבאה:
 
     ---
     layout: page
@@ -34,7 +35,7 @@ Para dar um plano de fundo ao seu projeto na página do portfólio, basta adicio
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    הוסף תיאור לתמונות בפשטות. משמאל, דרך שעוברת בתוך מנהרה. באמצע, עלים נושרים בצורה אומנותית בצילום היפסטרי. מימין, עוד צילום היפסטרי, חוטב עצים מחזיק חופן של מחטי אורן. 
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -42,12 +43,12 @@ Para dar um plano de fundo ao seu projeto na página do portfólio, basta adicio
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    גם התמונה הזאת יכולה לקבל תיאור. זה כמו קסם.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+אפשר גם פשוט לשים טקסט רגיל בין שורות של תמונות, אפילו ציטוטים {% cite einstein1950meaning %}.
+נניח שרציתם לכתוב קצת על הפרויקט שלכם לפני שפרסמתם את שאר התמונות.
+שתאם איך עמלתם, הזעתם, _דיממתם_ למען הפרויקט, ואז... אתם חושפים את מלוא הדרו בשורת התמונות הבאה.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -61,10 +62,10 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+הקוד הזה פשוט.
+פשוט עטפו את התמונות עם `<div class="col-sm">` ושימו אותם בתוך `<div class="row">` (קראו עוד על ה<a href="https://getbootstrap.com/docs/4.4/layout/grid/">גריד של Bootstrap</a> system).
+כדי שתמונות יהיו דינמיות, הוסיפו את מחלקת `img-fluid` לכל אחת מהן; לפינות מעוגלות וצללים השתמשו במחלקות `rounded` ו-`z-depth-1`.
+הנה הקוד עבור שורת התמונות האחרונה שמעל:
 
 {% raw %}
 
