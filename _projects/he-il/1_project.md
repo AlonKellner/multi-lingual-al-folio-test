@@ -2,10 +2,10 @@
 lang: he-il
 page_id: project_1
 layout: page
-plain-title: פרויקט 1
-title: '<div dir=rtl markdown=1 style="text-align: right">פרויקט 1</div>'
-plain-description: עם תמונת רקע
-description: '<div dir=rtl markdown=1 style="text-align: right">עם תמונת רקע</div>'
+title: פרויקט 1
+stylized-title: '<div dir=rtl markdown=1 style="text-align: right">פרויקט 1</div>'
+description: עם תמונת רקע
+stylized-description: '<div dir=rtl markdown=1 style="text-align: right">עם תמונת רקע</div>'
 img: /assets/img/12.jpg
 importance: 1
 category: work

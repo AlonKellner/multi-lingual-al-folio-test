@@ -249,10 +249,10 @@ defaults:
     values:
       sitemap: false
   - scope:
-      path: "_projects"
+      path: ""
     values:
-      plain-title: blank
-      plain-description: blank
+      stylized-title: blank
+      stylized-description: blank
 
 sass:
   sourcemap: never
