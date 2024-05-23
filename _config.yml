@@ -248,6 +248,11 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: "_projects"
+    values:
+      plain-title: blank
+      plain-description: blank
 
 sass:
   sourcemap: never

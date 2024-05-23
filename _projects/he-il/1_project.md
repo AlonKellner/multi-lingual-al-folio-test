@@ -2,7 +2,9 @@
 lang: he-il
 page_id: project_1
 layout: page
+plain-title: פרויקט 1
 title: '<div dir=rtl markdown=1 style="text-align: right">פרויקט 1</div>'
+plain-description: עם תמונת רקע
 description: '<div dir=rtl markdown=1 style="text-align: right">עם תמונת רקע</div>'
 img: /assets/img/12.jpg
 importance: 1
@@ -30,10 +32,10 @@ related_publications: true
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
