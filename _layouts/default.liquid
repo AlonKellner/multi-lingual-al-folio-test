@@ -21,13 +21,13 @@
   </head>
 
   <!-- Body -->
-  {% capture default_liquid_style %}{% if page.default_liquid_style %}{{ page.default_liquid_style }}{% elsif site.data[site.active_lang].config.default_liquid_style %}{{ site.data[site.active_lang].config.default_liquid_style }}{% endif %}{% endcapture %}
+  {% capture default_liquid_style %}{% if page contains 'default_liquid_style' %}{{ page.default_liquid_style }}{% elsif site.data[site.active_lang].config contains 'default_liquid_style' %}{{ site.data[site.active_lang].config.default_liquid_style }}{% endif %}{% endcapture %}
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}" {{ default_liquid_style }}>
     <!-- Header -->
     {% include header.liquid %}
 
     <!-- Content -->
-    {% capture content_liquid_style %}{% if page.content_liquid_style %}{{ page.content_liquid_style }}{% elsif site.data[site.active_lang].config.content_liquid_style %}{{ site.data[site.active_lang].config.content_liquid_style }}{% endif %}{% endcapture %}
+    {% capture content_liquid_style %}{% if page contains 'content_liquid_style' %}{{ page.content_liquid_style }}{% elsif site.data[site.active_lang].config contains 'content_liquid_style' %}{{ site.data[site.active_lang].config.content_liquid_style }}{% endif %}{% endcapture %}
     <div class="container mt-5" role="main" {{ content_liquid_style }}>
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
