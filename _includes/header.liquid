@@ -9,24 +9,24 @@
               <span class="font-weight-bold">
                 {% if site.data[site.active_lang].strings contains 'first_name' %}
                   {{- site.data[site.active_lang].strings.first_name -}}
-                {{% else %}}
+                {% else %}
                   {{- site.first_name -}}
-                {{% endif %}}
+                {% endif %}
               </span>
             {% endif %}
             {% if site.middle_name %}
               {% if site.data[site.active_lang].strings contains 'middle_name' %}
                 {{- site.data[site.active_lang].strings.middle_name -}}
-              {{% else %}}
+              {% else %}
                 {{- site.middle_name -}}
-              {{% endif %}}
+              {% endif %}
             {% endif %}
             {% if site.last_name %}
               {% if site.data[site.active_lang].strings contains 'last_name' %}
                 {{- site.data[site.active_lang].strings.last_name -}}
-              {{% else %}}
+              {% else %}
                 {{- site.last_name -}}
-              {{% endif %}}
+              {% endif %}
             {% endif %}
           {% else %}
             {{- site.title -}}
