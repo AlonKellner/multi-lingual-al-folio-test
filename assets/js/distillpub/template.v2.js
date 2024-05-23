@@ -2142,7 +2142,7 @@ d-appendix > distill-appendix {
 .citation-number {
   cursor: default;
   white-space: nowrap;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
   font-size: 75%;
   color: hsla(206, 90%, 20%, 0.7);
   display: inline-block;
