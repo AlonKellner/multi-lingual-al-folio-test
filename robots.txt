@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://alonkellner.github.io/multi-lingual-al-folio-test/sitemap.xml
