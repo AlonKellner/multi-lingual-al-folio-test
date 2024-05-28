@@ -5,7 +5,7 @@ title: drawer
 permalink: /drawer/
 description: A growing collection of your creative output.
 nav: true
-nav_order: 8
+nav_order: 7
 display_categories: [poetry, stories]
 horizontal: false
 ---
