@@ -3,7 +3,7 @@ id: dropdown
 layout: page
 title: תת-תפריטים
 nav: true
-nav_order: 8
+nav_order: 7
 dropdown: true
 children:
   - title: מאמרים
@@ -14,4 +14,7 @@ children:
   - title: divider
   - title: בלוג
     permalink: /blog/
+  - title: divider
+  - title: המגירה
+    permalink: /drawer/
 ---

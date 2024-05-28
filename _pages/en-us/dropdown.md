@@ -3,7 +3,7 @@ id: dropdown
 layout: page
 title: submenus
 nav: true
-nav_order: 8
+nav_order: 7
 dropdown: true
 children:
   - title: publications
@@ -14,4 +14,7 @@ children:
   - title: divider
   - title: blog
     permalink: /blog/
+  - title: divider
+  - title: drawer
+    permalink: /drawer/
 ---

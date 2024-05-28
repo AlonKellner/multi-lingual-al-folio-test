@@ -1,8 +1,8 @@
 ---
 page_id: repositories
 layout: page
-permalink: /repositories/
-title: Repo-ים
+permalink: /github/
+title: גיטהאב
 description: ערוך את `_data/repositories.yml` והחלף את רשימות ה-`github_users` וה-`github_repos` כדי להציג את פרופיל ה-github וה-Repo-ים שלך.
 nav: true
 nav_order: 4
