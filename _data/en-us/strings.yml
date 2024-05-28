@@ -4,8 +4,12 @@ archive_year: an archive of posts from this year
 blog:
   navigation_title: blog
 categories:
-  fun: fun
-  work: work
+  projects:
+    fun: fun
+    work: work
+  drawer:
+    poetry: poetry
+    stories: stories
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"

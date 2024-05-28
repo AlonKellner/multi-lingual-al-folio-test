@@ -7,8 +7,12 @@ archive_year: ארכיון של פוסטים מהשנה
 blog:
   navigation_title: בלוג
 categories:
-  fun: כיף
-  work: עבודה
+  projects:
+    fun: כיף
+    work: עבודה
+  drawer:
+    poetry: שירה
+    stories: סיפורת
 citation:
   bibtex: "או כרשומת BibTeX:"
   introduction: "אם זה עזר לכם, בבקשה צטטו כך:"
