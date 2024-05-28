@@ -5,7 +5,7 @@ title: המגירה
 permalink: /drawer/
 description: אוסף גדל של יצירות.
 nav: true
-nav_order: 3
+nav_order: 8
 display_categories: [poetry, stories]
 horizontal: false
 ---
