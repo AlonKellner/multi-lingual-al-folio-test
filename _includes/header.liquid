@@ -54,7 +54,7 @@
       </button>
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <ul class="navbar-nav flex-nowrap" {{site.data[site.active_lang].config.navbar_style}}>
+        <ul class="navbar-nav flex-nowrap" {{ site.data[site.active_lang].config.navbar_style }}>
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}

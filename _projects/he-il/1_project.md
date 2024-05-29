@@ -87,4 +87,5 @@ related_publications: true
 ```
 
 {% endraw %}
+
 </div>

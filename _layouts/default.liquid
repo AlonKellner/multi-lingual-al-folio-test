@@ -22,7 +22,10 @@
 
   <!-- Body -->
   {% capture default_liquid_style %}{% if page contains 'default_liquid_style' %}{{ page.default_liquid_style }}{% elsif site.data[site.active_lang].config contains 'default_liquid_style' %}{{ site.data[site.active_lang].config.default_liquid_style }}{% endif %}{% endcapture %}
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}" {{ default_liquid_style }}>
+  <body
+    class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}"
+    {{ default_liquid_style }}
+  >
     <!-- Header -->
     {% include header.liquid %}
 
