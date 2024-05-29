@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Alon
 middle_name: # no middle name
 last_name: Kellner
-email: you@example.com
+email: me@alonkellner.com
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 icon: 🎗️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -215,8 +215,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/en-us/about_einstein.md
-  - _pages/he-il/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
